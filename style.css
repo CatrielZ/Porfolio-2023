@@ -21,11 +21,16 @@ body{
     padding: 0 20px;
 }
 header{
+    margin: 20px;
+    width: 100%;
     padding: 40px 0 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    position: fixed;
+    background: #000000b9;
+    
 }
 .logo{
     display: inline-flex;
@@ -48,16 +53,18 @@ header{
     font-size: 24px;
     font-weight: 500;
     color: #fff;
+    
 }
 nav .togglebtn{
     width: 35px;
     height: 35px;
-    position: absolute;
+    
     top: 45px;
     right: 3%;
     z-index: 5;
     cursor: pointer;
     display: none;
+
     
 }
 
@@ -86,15 +93,21 @@ nav .navlinks li a{
     display:  flex;
     justify-content:  space-around;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 200px;
+    margin-bottom: 3rem;
 }
 .container .hero-pic{
     width: 300px;
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
-    border: 15px solid #444;
+    border: 15px solid #007ced;
     box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);   
+}
+.container .hero-pic:hover{
+    
+    border-color:  #7CFC00;
+    transition: 1s;
 }
 .hero-pic img{
     height: 100%;
@@ -103,6 +116,7 @@ nav .navlinks li a{
 }
 .hero-pic img:hover{
     transform:  scale(1.2);
+    
 }
 .hero-text{
     max-width: 500px;
@@ -153,6 +167,147 @@ nav .navlinks li a{
     color:  #007ced;
     transform: rotate(360deg);
 }
+
+.sobreMi, .habilidades, .miFormacion, .proyectos {
+    padding-bottom: 4rem;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-bottom: 1px double #FFEBCD ;
+    padding-top: 200px;
+}
+
+.sobreMi_titulo{
+    margin-top: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    color:#e5e5e5 ;
+    text-align: center;
+}
+
+.container_content-sobreMi{
+   
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+.container_text-sobreMi{
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    
+}
+.sobreMi_nombreTitulo{
+    margin: 10px;
+    font-size: 3rem;
+    font-family: 'Handjet', cursive;
+    color: #007ced;
+}
+
+.sobreMi_Texto{
+    margin: 10px;
+    color:#FFEBCD ;
+    text-align: center;
+    font-size: 20px;
+}
+
+.imagen_sobreMi {
+    width: 500px;
+    height: 500px;
+    border-radius: 30%;
+    margin: 2px;
+}
+
+.habilidades_titulo ,.miFormacion_titulo, .proyecto_titulo {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.habilidades_titulo-texto , .miFormacion_titulo-texto,  .proyecto_titulo-texto {
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    color:#e5e5e5 ;
+    text-align: center;
+}
+
+.habilidades_conteiner {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    padding: 20px;
+}
+
+.habilidades_conteiner-item {
+    border: 2px solid #fff;
+    background-color: aqua;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.miFormacion_container, .proyecto_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.miFormacion_cart, .proyecto_cart{
+    border: 2px solid #fff;
+    background-color: aqua;
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+}
+.proyecto_cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyectos_cart-img{
+    width: 500px;
+    height: 500px;
+    border-radius: 30%;
+    margin: 2px;
+}
+
+footer{
+    margin: 0px;
+    padding: 0px;    
+}
+
+.conteiner_Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    padding: 20px; 
+}
+.footerText{
+    font-size: 10px;
+    font-family: 'Amatic SC', cursive;
+    color:#007ced ;
+
+}
+
+
+
+
+
+
+
+
+
+
 /* responsive small screen*/
 @media(max-width:930px)
 {

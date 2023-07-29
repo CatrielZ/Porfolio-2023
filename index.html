@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive titulo</title>
+    
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
     <!--Font awesome cdn font icon css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
@@ -23,35 +27,221 @@
                         <span></span>
                     </div>
                     <ul class="navlinks">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Porfolio</a></li>
-                        <li><a href="#">Resume</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobreMi">Sobre mí</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#miFormacion">Formación</a></li>
+                        <li><a href="#proyectos">Proyecto</a></li>
                     </ul>
 
                 </nav>
             </header>
-            <div class="container">
+            <div class="container" id="home">
                 <div class="hero-pic">
                     <img src="images/main_photo1.png" alt="profile pic">
                 </div>
                 <div class="hero-text">
-                    <h5>Hola! Soy <span class="input">Frontend Developer</span></h5>
+                    <p>Hola! Mi nombre es..</p>
                     <h1>Catriel Labat</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi doloremque necessitatibus est at dolore illo minima voluptatibus, iure deleniti enim, vel sunt maiores labore quidem commodi rerum magnam placeat hic?                        
-                    </p>
+                    <h5>Soy <span class="input">Frontend Developer</span></h5>
+                    
+                    <p>Te doy la Bienvenida a mi porfolio, te invito a que me conozcas</p>
                     <div class="btn-group">
-                        <a href="#" class="btn active">Download CV</a>
-                        <a href="#" class="btn">Contact</a>
+                        <a href="cv/Catriel Labat CV.pdf" class="btn active">Download CV</a>
+                        
                     </div>
                     <div class="social">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=1566168945"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/zeeb-catriel-labat-46a80b188/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/z.catriel/"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
+            <section class="sobreMi" id="sobreMi">
+                <p class="sobreMi_titulo">Sobre mí</p>
+                <div class="container_content-sobreMi">
+                    <div class="container_text-sobreMi">
+                        <p class="sobreMi_nombreTitulo">Zeeb Catriel Labat</p>
+                        <p class="sobreMi_Texto" data-section="sobre-mi" data-value="texto_sobreMi">   Soy un  apasionado desarrollador fullstack y técnico en computación, especializado en el desarrollo frontend. Mi enfoque es crear experiencias web cautivadoras y funcionales. Siempre busco mejorar mis habilidades para estar al día con las últimas tendencias. También tengo un interés en animación gráfica y estoy explorando la emocionante área de la robótica industrial. Ademas soy Actor y docente de teatro. Esto me otorga habilidades de comunicación y experiencia docente que complementan mis capacidades técnicas.
+                            Soy una persona empática, emprendedora y proactiva, con habilidades que me hacen disfrutar del trabajo en equipo. Soy responsable y perseverante, y siempre busco superarme a mi mismo. ¡Gracias por visitar mi portafolio!
+                        </p>
+
+                    </div>
+                    <picture class=" container_image-sobreMi">
+                        <img class="imagen_sobreMi" src="images/main_photo.png" alt="catriel fotografia">
+                    </picture>
+                </div>
+                
+            </section >
+                
+            <section class="habilidades" id="habilidades">
+                <div class="habilidades_titulo">
+                    <p class="habilidades_titulo-texto">Habilidades</p>
+                </div>
+                <div class="habilidades_conteiner">
+                    <div class="habilidades_conteiner-item">
+                        <img src="" alt="">
+                        <p>HTML5</p>
+                        
+                    </div>
+                    <div class="habilidades_conteiner-item">
+                        <img src="" alt="">
+                        <p> CSS</p>
+                    </div>
+                    <div class="habilidades_conteiner-item">
+                        <img src="" alt="">
+                        <p>JAVASCRIPT </p>
+                    </div>
+                    <div class="habilidades_conteiner-item">
+                        <img src="" alt="">
+                        <p>REACTJS</p>
+                    </div>
+                    <div class="habilidades_conteiner-item">
+                        <img src="" alt="">
+                        <p>Nodejs</p>
+                    </div>
+                    <div class="habilidades_conteiner-item">
+                        <img src="" alt="">
+                        <p>MongoDB</p>
+                    </div>
+                    <div class="habilidades_conteiner-item">
+                        <img src="" alt="">
+                        <p>MySQL</p>
+                    </div>
+                    <div class="habilidades_conteiner-item">
+                        <img src="" alt="">
+                        <p>UNREAL5</p>
+                    </div>
+                    <div class="habilidades_conteiner-item">
+                        <img src="" alt="">
+                        <p>Git</p>
+                    </div>
+                    <div class="habilidades_conteiner-item">
+                        <img src="" alt="">
+                        <p>Github</p>
+                    </div>
+                    <div class="habilidades_conteiner-item">
+                        <img src="" alt="">
+                        <p>Visualbasic</p>
+                    </div>
+                    <div class="habilidades_conteiner-item">
+                        <img src="" alt="">
+                        <p>FANUC</p>
+                    </div>
+                </div>
+            </section>
+            <section class="miFormacion" id="miFormacion">
+                <div class="miFormacion_titulo">
+                    <p class="miFormacion_titulo-texto">Formación</p>
+                </div>
+                <div class="miFormacion_container" >
+                    <div class="miFormacion_cart" id="">
+                        <img class="miFormacion_cart-img" src="" alt="">
+                        <p class="miFormacion_cart-text"></p>
+                    </div>
+                    <div class="miFormacion_cart">
+                        <img class="miFormacion_cart-img" src="" alt="">
+                        <p class="miFormacion_cart-text"></p>
+                    </div>
+                    <div class="miFormacion_cart">
+                        <img class="miFormacion_cart-img" src="" alt="">
+                        <p class="miFormacion_cart-img"></p>
+                    </div>
+                    <div class="miFormacion_cart">
+                        <img class="miFormacion_cart-img" src="" alt="">
+                        <p class="miFormacion_cart-text"></p>
+                    </div>
+                    <div class="miFormacion_cart">
+                        <img class="miFormacion_cart-img" src="" alt="">
+                        <p class="miFormacion_cart-text"></p>
+                    </div><div class="miFormacion_cart">
+                        <img class="miFormacion_cart-img" src="" alt="">
+                        <p class="miFormacion_cart-text"></p>
+                    </div>
+                       
+                </div>
+
+            </section>
+            <section class="proyectos" id="proyectos">
+                <div class="proyecto_titulo">
+                    <p class="proyecto_titulo-texto">Formación</p>
+                </div>
+                <div class="proyecto_container" >
+                    <div class="proyecto_cart" id="">
+                        <img class="proyecto_cart-img" src="images/proyecto.jpg" alt="proyecto 1">
+                        <p class="proyecto_cart-nombre">Nombre del proyecto</p>
+                        <p class="proyecto_cart-text">descripcion</p>
+                        <div class="btn-group">
+                            <a href="#" class="btn">Repo</a>
+                            <a href="#" class="btn">Demo</a>
+                        </div>
+                    </div>
+                    <div class="proyecto_cart" id="">
+                        <img class="proyecto_cart-img" src="images/proyecto.jpg" alt="proyecto 1">
+                        <p class="proyecto_cart-nombre">Nombre del proyecto</p>
+                        <p class="proyecto_cart-text">descripcion</p>
+                        <div class="btn-group">
+                            <a href="#" class="btn">Repo</a>
+                            <a href="#" class="btn">Demo</a>
+                        </div>
+                    </div>
+                    <div class="proyecto_cart" id="">
+                        <img class="proyecto_cart-img" src="images/proyecto.jpg" alt="proyecto 1">
+                        <p class="proyecto_cart-nombre">Nombre del proyecto</p>
+                        <p class="proyecto_cart-text">descripcion</p>
+                        <div class="btn-group">
+                            <a href="#" class="btn">Repo</a>
+                            <a href="#" class="btn">Demo</a>
+                        </div>
+                    </div>
+                    <div class="proyecto_cart" id="">
+                        <img class="proyecto_cart-img" src="images/proyecto.jpg" alt="proyecto 1">
+                        <p class="proyecto_cart-nombre">Nombre del proyecto</p>
+                        <p class="proyecto_cart-text">descripcion</p>
+                        <div class="btn-group">
+                            <a href="#" class="btn">Repo</a>
+                            <a href="#" class="btn">Demo</a>
+                        </div>
+                    </div>
+                    <div class="proyecto_cart" id="">
+                        <img class="proyecto_cart-img" src="images/proyecto.jpg" alt="proyecto 1">
+                        <p class="proyecto_cart-nombre">Nombre del proyecto</p>
+                        <p class="proyecto_cart-text">descripcion</p>
+                        <div class="btn-group">
+                            <a href="#" class="btn">Repo</a>
+                            <a href="#" class="btn">Demo</a>
+                        </div>
+                    </div>
+                    <div class="proyecto_cart" id="">
+                        <img class="proyecto_cart-img" src="images/proyecto.jpg" alt="proyecto 1">
+                        <p class="proyecto_cart-nombre">Nombre del proyecto</p>
+                        <p class="proyecto_cart-text">descripcion</p>
+                        <div class="btn-group">
+                            <a href="#" class="btn">Repo</a>
+                            <a href="#" class="btn">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="conteiner_Footer">
+                    <div>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+    
+                    </div>
+                    <div class="footerLogos">
+                        <a href="https://api.whatsapp.com/send?phone=1566168945"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/zeeb-catriel-labat-46a80b188/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/z.catriel/"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+                    <div class="footerText">
+                        <p >Coded by Catriel (─‿‿─)</p>
+                    </div>
+                </div>
+            </footer> 
+            </div>
+
         </div>
     </div>
     <!--Typed js for typing text effect-->
